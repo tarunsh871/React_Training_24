@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Registration</title>
+</head>
+
+<body>
+       
+ <div class="container">
+  <form action="" method="post">
+   <h2>Registration Page</h2>
+   <div class="input-box">
+    <label for="name">Full Name</label>
+    <input type="text" placeholder="Enter full name" name="name" required>
+   </div>
+
+   <div class="input-box">
+    <label for="username">Username</label>
+    <input type="text" placeholder="Enter the username" name="uname" required>
+   </div>
+
+   <div class="input-box">
+    <label for="password"> Password </label>
+    <input type="password" placeholder="Enter new password" name="password" required>
+   </div>
+
+   <div class="input-box">
+    <label for="Cpassword">Confirm Password</label>
+    <input type="password" placeholder="Enter Confirm password" name="confirm Password" required>
+   </div>
+
+   <div class="input-box">
+    <label for="email">Email Address </label>
+    <input type="email" placeholder="Enter your valid email address" name="email " required>
+   </div>
+
+   <div class="input-box">
+    <label for="phonenumber">Phone Number</label>
+    <input type="tel" placeholder="Enter Phone Number" name="phonenumber" required>
+   </div>
+
+   <div class="input-box">
+    <label for="name">Date of Birth </label>
+    <input type="date" placeholder="Enter date of birth" name="date of birth" required>
+   </div>
+
+   <span class="gender-title"> Gender :</span>
+   <div class="gender-category">
+    
+    <label for="gender">Male</label>
+    <input type="radio" name="gender" id="male">
+    
+    <label for="gender">Female</label>
+    <input type="radio" name="gender" id="female">
+   
+    <label for="gender">Others</label>
+    <input type="radio" name="gender" id="other">
+    
+   </div>
+
+   <div class="hobbies">
+    <label>Hobbies:</label><br>
+    <label class="container">Reading
+     <input type="checkbox" name="hobbies" value="reading">
+     <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Traveling
+     <input type="checkbox" name="hobbies" value="traveing">
+     <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Cooking
+     <input type="checkbox" name="hobbies" value="cooking">
+     <span class="checkmark"></span>
+    </label>
+
+    <label class="container">Others
+     <input type="checkbox" name="hobbies" value="others">
+     <span class="checkmark"></span>
+    </label>
+   </div>
+
+   <div class="input-box">
+    <label for="profile-pic">Profile Picture</label>
+    <input type="file" id="profile-pic" name="profile-pic">
+</div>
+
+   <div class="form-group">
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+     <option value="none" selected disabled hidden>Select Country</option>
+     <option value="India">India</option>
+     <option value="Idrael">Idrael</option>
+     <option value="Caneda">Caneda</option>
+     <option value="USA">United States</option>
+     <option value="UK">United Kingdom</option>
+     <option value="Japan">Japan</option>
+    </select>
+   </div>
+
+   <div class="form-group">
+    <label for="bio">Bio:</label>
+    <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+   </div>
+
+   <div class="form-group">
+    <label>
+     <input type="checkbox" id="terms" name="terms" required>
+     I agree to the terms and conditions
+    </label>
+   </div>
+
+   <div class="button-container">
+    <button type="submit"> Register </button>
+   </div>
+
+  </form>
+ </div>
+
+</body>
+
+</html>

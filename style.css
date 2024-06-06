@@ -1,0 +1,116 @@
+
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-image: url("img/registration.png");
+ background-size: cover;
+ }
+
+
+.container {
+ max-width: 600px;
+ margin: 10px auto;
+ padding: 20px;
+ background: rgba(255, 255, 255, 0.8);
+
+}
+
+h2 {
+ text-align: center;
+ margin-bottom: 20px;
+ 
+}
+
+.input-box{
+ margin-bottom: 15px;
+}
+
+
+
+.form-group{
+ margin-bottom: 12px;
+}
+
+.gender-category{
+ margin-bottom: 15px;
+}
+
+.hobbies{
+ margin-bottom: 15px;
+padding-right: 10px;
+}
+
+.input-box label{
+ display: block;
+ margin-bottom: 10px;
+}
+
+.form-group label{
+ display: block;
+ margin-bottom: 5px;
+}
+
+.gender-title{
+ display: block;
+ margin-bottom: 5px;
+}
+
+.hobbies label {
+ display: block;
+ margin-bottom: 5px;
+}
+
+.input-box input{
+ width: 100%;
+ padding: 8px;
+ margin-top: 5px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+
+.form-group textarea {
+ width: 100%;
+ padding: 8px;
+ margin-top: 5px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+}
+
+.gender-category {
+ display: flex;
+ justify-content: space-around;
+}
+
+.gender-category input[type="radio"] {
+ margin-right: 5px;
+}
+
+.hobbies label {
+ display: inline-block;
+ margin-right: 10px;
+}
+
+.button-container {
+ text-align: center;
+}
+
+.button-container button {
+ padding: 10px 20px;
+ border: none;
+ background-color: #a05a94;
+ color: white;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.button-container button:hover {
+ background-color: #e42f06;
+}
+
+
+
+
+
